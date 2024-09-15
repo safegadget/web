@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root {
-  --font-family: "Dm Sans", sans-serif;
+  --font-family: "Plus Jakarta Sans";
   padding: 0;
   margin: 0;
 }
@@ -15,7 +15,7 @@
 
 /* Example usage */
 body {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
 }
 
 h1 {
@@ -44,38 +44,38 @@ small {
 }
 
 h1 {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-weight: 900;
   /* Black weight */
 }
 
 h2 {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-weight: 700;
   /* Bold weight */
 }
 
 h3 {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-weight: 500;
   /* Medium weight */
 }
 
 p {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-weight: 400;
   /* Book weight */
 }
 
 li,
 .a {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-weight: 500;
 
 }
 
 small {
-  font-family: "Dm Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-weight: 300;
   /* Light weight */
 }
