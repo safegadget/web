@@ -1,0 +1,180 @@
+/* Font Definitions */
+@font-face {
+  font-family: 'CircularStd';
+  src: url('../assets/fonts/CircularStd-Black.woff2') format('woff2'),
+    url('../assets/fonts/CircularStd-Black.woff') format('woff'),
+    url('../assets/fonts/CircularStd-Black.otf') format('opentype');
+  font-weight: 900;
+  /* Black weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('../assets/fonts/CircularStd-Bold.woff2') format('woff2'),
+    url('../assets/fonts/CircularStd-Bold.woff') format('woff'),
+    url('../assets/fonts/CircularStd-Bold.otf') format('opentype');
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('../assets/fonts/CircularStd-Medium.woff2') format('woff2'),
+    url('../assets/fonts/CircularStd-Medium.woff') format('woff'),
+    url('../assets/fonts/CircularStd-Medium.otf') format('opentype');
+  font-weight: 500;
+  /* Medium weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('../assets/fonts/CircularStd-Light.woff2') format('woff2'),
+    url('../assets/fonts/CircularStd-Light.woff') format('woff'),
+    url('../assets/fonts/CircularStd-Light.otf') format('opentype');
+  font-weight: 300;
+  /* Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('../assets/fonts/CircularStd-Book.woff2') format('woff2'),
+    url('../assets/fonts/CircularStd-Book.woff') format('woff'),
+    url('../assets/fonts/CircularStd-Book.otf') format('opentype');
+  font-weight: 400;
+  /* Book weight */
+  font-style: normal;
+}
+
+/* Font Usage */
+body {
+  font-family: 'CircularStd';
+  color: var(--black);
+  background-color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 900;
+  /* Black */
+}
+
+h2 {
+  font-weight: 700;
+  /* Bold */
+}
+
+h3 {
+  font-weight: 500;
+  /* Medium */
+}
+
+p {
+  font-weight: 400;
+  /* Book */
+}
+
+small {
+  font-weight: 300;
+  /* Light */
+}
+
+/* Color Variables */
+:root {
+  --primary-color: #6A48FA;
+  /* Dark Blue */
+  --secondary-color: #12141D;
+  /* Dark Blue */
+  --complementary-color: rgba(225, 218, 254, 0.6);
+  /* Light Purple with 60% opacity */
+  --black: #121212;
+  --white: #FFFFFF;
+}
+
+/* General Styles */
+body {
+  font-family: 'CircularStd', sans-serif;
+  color: var(--black);
+  background-color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #5a3dff;
+  /* Darker shade of primary color */
+}
+
+/* Sections */
+.section {
+  padding: 2rem;
+}
+
+.section-dark {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.section-light {
+  background-color: var(--complementary-color);
+  color: var(--black);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Utility Classes */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}

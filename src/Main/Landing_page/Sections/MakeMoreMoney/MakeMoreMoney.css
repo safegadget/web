@@ -1,0 +1,140 @@
+.make-more-money {
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+    flex-direction: row;
+    margin-top: 160px
+  }
+  
+  .make-more-money-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .make-more-money-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .make-more-money-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .make-more-money-text {
+    flex: 1;
+    padding-left: 2rem;
+  }
+  
+  .make-more-money-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .make-more-money-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .make-more-money-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    margin-top: 48px;
+
+  }
+  
+  .make-more-money-features li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    color: #666666;
+
+  }
+  
+  .check-icon {
+    color: #6a48fa;
+    margin-right: 0.5rem;
+    font-size: 24px
+  }
+  
+  .make-more-money-cta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 48px
+  }
+  
+  .cta-button {
+    padding: 16px 24px;
+    background-color: #6a48fa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    opacity: 0.9;
+  }
+  
+  .contact-support {
+    margin-left: auto;
+    font-size: 1rem;
+    color: #6a48fa;
+    cursor: pointer;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .make-more-money {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .make-more-money-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .make-more-money-image {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .make-more-money-text {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .make-more-money-text h1 {
+      font-size: 2rem;
+    }
+  
+    .make-more-money-text p {
+      font-size: 1rem;
+    }
+  
+    .make-more-money-features li {
+      font-size: 0.9rem;
+    }
+  
+    .make-more-money-cta {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-support {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }

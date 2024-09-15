@@ -1,0 +1,146 @@
+/* Blurry background overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(106, 72, 250, 0.1);
+    /* Add a purple translucent background */
+    backdrop-filter: blur(5px);
+    /* Blurring effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure it's on top of other content */
+}
+
+/* Modal content styling */
+.modal-content {
+    background-color: white;
+    border-radius: 12px;
+    width: 360px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    padding-top: 32px
+        /* Ensures content is centered horizontally */
+}
+
+/* Slide-in animation for modal content */
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Input field styling */
+input[type="email"] {
+    padding: 16px;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 24px;
+    max-width: 380px;
+}
+
+/* Primary CTA button */
+.submit-btn {
+    padding: 16px;
+    background-color: #6a48fa;
+    /* Purple color for CTA */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+    font-size: 16px;
+    margin-top: -16px
+}
+
+.submit-btn:hover {
+    background-color: #583be0;
+    /* Slightly darker shade on hover */
+}
+
+/* Close icon */
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+    font-size: 4px;
+    color: #808080;
+}
+
+.close-icon:hover {
+    background-color: #ff0000;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.success-message-h2 {
+    margin: 0px;
+    margin-top: 32px;
+}
+
+.success-message-p {
+    margin: 0px;
+    margin-top: 8px;
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 16px
+}
+
+/* Responsive improvements */
+@media (max-width: 500px) {
+    .modal-content {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    input[type="email"] {
+        width: inherit;
+         padding: 16px;
+        margin-bottom: 1.5rem;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+        margin-top: 24px
+    }
+}
+
+/* Check icon animation */
+.check-icon {
+    color: #6a48fa;
+    animation: pop 0.5s ease-out forwards;
+    transform: scale(0);
+    margin-bottom: 15px;
+}
+
+@keyframes pop {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

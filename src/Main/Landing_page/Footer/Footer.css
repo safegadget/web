@@ -1,0 +1,48 @@
+.footer {
+    background-color: #fff;
+    /* Light gray background */
+    padding: 2rem 0;
+    text-align: center;
+    padding: 180px 16px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-logo {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #000;
+
+    /* Primary color */
+}
+.footer-logo-image{
+    width: 150px
+}
+.footer-icons {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #000;
+    /* Primary color */
+    transition: color 0.3s;
+
+}
+
+.footer-icon:hover {
+    color: #4a3fbb;
+    /* Slightly darker shade on hover */
+}
+
+.footer-copyright {
+    font-size: 0.875rem;
+    color: #6c757d;
+    /* Gray color for the copyright text */
+}

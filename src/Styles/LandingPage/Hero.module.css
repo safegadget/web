@@ -1,0 +1,86 @@
+.heroContainer {
+    margin-top: 64px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: white;
+  }
+  
+  .heroContent {
+    background-color: #E1DAFE45;
+    /* Purple with 23% opacity */
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 2000px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0 0 16px 0;
+    font-size: 4em;
+    font-weight: 900;
+  }
+  
+  p {
+    margin: 0 0 24px 0;
+    font-size: 1.2em;
+    max-width: 60%;
+    color: #555555;
+    font-weight: 400;
+  }
+  
+  .ctaButton {
+    margin: 0 0 24px 0;
+    padding: 24px 32px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: var(--font-family);
+    margin-top: 32px;
+  }
+  
+  .heroImageTop {
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+  }
+  
+  .imageRow {
+    display: flex;
+    gap: 16px; /* Adjust the gap as needed */
+    margin-top: 24px;
+  }
+  
+  .heroImageRow {
+    flex: 1;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .logoImage {
+    height: 30px;
+    margin-bottom: 120px;
+    margin-top: 48px;
+  }
+  
+  @media (min-width: 768px) {
+    .heroContent {
+      max-width: 800px;
+    }
+  
+    .heroContainer {
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: white;
+    }
+  }

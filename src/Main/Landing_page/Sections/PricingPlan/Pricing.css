@@ -1,0 +1,82 @@
+.pricing {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.pricing-plan {
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+  
+}
+
+.pricing-plan-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-plan-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.naira-sign {
+    font-size: 1rem;
+}
+
+.pricing-plan-cta {
+    padding: 1.05rem 1.5rem;
+    background-color: transparent;
+    color: #666;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    gap: 48px
+}
+
+.pricing-plan-cta:hover {
+    opacity: 0.9;
+}
+
+.pricing-plan-coverage-title {
+    font-size: 1.03;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.pricing-plan-coverage {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: #666;
+
+}
+
+.pricing-plan-coverage-item {
+    font-size: 0.98rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.check-icon {
+    color: #6a48fa;
+    margin-right: 0.5rem;
+}

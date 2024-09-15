@@ -1,0 +1,110 @@
+.testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background-color: #fff;
+}
+
+.testimonial-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 90%;
+    scroll-snap-type: x mandatory;
+    gap: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.testimonial-card {
+    flex: 0 0 70%;
+    /* Card occupies 70% of the container's width */
+    background-color: #fff;
+    /* Default background color */
+    border-radius: 10px;
+    padding: 2rem;
+    scroll-snap-align: start;
+    display: flex;
+    gap: 2rem;
+}
+
+.testimonial-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-image {
+    width: 320px;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.testimonial-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-quote {
+    font-size: 3rem;
+    color: #121212;
+    display: flex;
+}
+
+.testimonial-text {
+    font-size: 1.0rem;
+    margin-bottom: 1.5rem;
+    color: #666
+}
+
+.testimonial-client {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 3.2em
+}
+
+.testimonial-jobTitle {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0
+}
+
+.arrow-icon-right,
+.arrow-icon-left {
+    font-size: 24px;
+    cursor: pointer;
+    color: #121212;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-icon-left {
+    left:16px;
+}
+
+.arrow-icon-right {
+    right:16px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .testimonial-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 90%;
+        /* Adjust for mobile view */
+    }
+
+    .testimonial-quote {
+
+        display: none;
+    }
+
+}
