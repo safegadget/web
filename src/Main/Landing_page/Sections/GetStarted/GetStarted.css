@@ -28,6 +28,7 @@
   .get-started-text p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
+    line-height: 30px;
   }
   
   .cta-button {

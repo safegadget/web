@@ -33,6 +33,9 @@ const PricingPlan: React.FC<PricingPlanProps> = ({
     <p className="pricing-plan-price">
       {/* <span className="naira-sign">₦</span> */}
       {price}
+      <span className="naira-sign" style={{ fontWeight: 300, marginLeft: 4 }}>
+        quarterly
+      </span>
     </p>
     <br />
     <button

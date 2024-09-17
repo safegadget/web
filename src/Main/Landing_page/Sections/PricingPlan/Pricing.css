@@ -12,14 +12,14 @@
 .pricing-plan {
     border-radius: 10px;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
     position: relative;
-  
+
 }
 
 .pricing-plan-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 0.98rem;
+    font-weight: 600;
 }
 
 .pricing-plan-price {
@@ -43,10 +43,10 @@
     font-family: var(--font-family);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 1rem;
     width: 100%;
-    gap: 48px
+
 }
 
 .pricing-plan-cta:hover {
@@ -71,12 +71,13 @@
 .pricing-plan-coverage-item {
     font-size: 0.98rem;
     color: #666;
-    margin-bottom: 0.5rem;
+
     display: flex;
     align-items: center;
 }
 
 .check-icon {
     color: #6a48fa;
-    margin-right: 0.5rem;
+    margin-right: 0.8rem;
+
 }

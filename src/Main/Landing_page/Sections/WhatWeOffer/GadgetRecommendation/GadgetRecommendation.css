@@ -35,9 +35,11 @@
 }
 
 .gadget-p {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 1.1rem;
+    color: #808080;
     margin-bottom: 1.5rem;
+    line-height: 33px;
+
 }
 
 .gadget-h6 {

@@ -76,8 +76,9 @@
 }
 
 .whychooseus-card-text {
-    font-size: 1rem;
+    font-size: rem;
     color: #666;
+    line-height: 32px;
 }
 
 

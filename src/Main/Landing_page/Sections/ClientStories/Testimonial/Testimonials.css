@@ -59,7 +59,8 @@
 .testimonial-text {
     font-size: 1.0rem;
     margin-bottom: 1.5rem;
-    color: #666
+    color: #666;
+    line-height: 34px;
 }
 
 .testimonial-client {

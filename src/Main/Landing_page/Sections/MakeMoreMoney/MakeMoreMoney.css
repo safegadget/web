@@ -36,9 +36,10 @@
   }
   
   .make-more-money-text p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1.5rem;
-    color: #666;
+    color: #808080;
+    line-height: 34px;
   }
   
   .make-more-money-features {
@@ -50,11 +51,12 @@
   }
   
   .make-more-money-features li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
-    color: #666666;
+    color: #808080;
+    line-height: 34px;
 
   }
   

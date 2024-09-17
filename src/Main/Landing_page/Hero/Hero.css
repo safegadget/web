@@ -38,7 +38,8 @@
 .hero-p {
     font-size: 1.0rem;
     margin-bottom: 1.9rem;
-    color: #666
+    color: #808080;
+    line-height: 30px;
 }
 
 .hero-cta-buttons {
