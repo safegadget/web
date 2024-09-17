@@ -31,7 +31,7 @@ const GadgetRecommendation: React.FC<Props> = () => {
           pricing, and personalized recommendations to help customers make
           informed purchasing decisions.
         </p>
-        <h6 className="service-heading" onClick={openModal}>
+        <h6 className="gadget-h6" onClick={openModal}>
           Buy a new gadget <FaArrowRight className="arrow-icon" />
         </h6>
       </div>

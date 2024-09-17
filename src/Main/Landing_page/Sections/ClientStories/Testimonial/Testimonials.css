@@ -86,11 +86,11 @@
 }
 
 .arrow-icon-left {
-    left:16px;
+    left: 16px;
 }
 
 .arrow-icon-right {
-    right:16px;
+    right: 16px;
 }
 
 /* Mobile Responsive */
@@ -102,9 +102,15 @@
         /* Adjust for mobile view */
     }
 
-    .testimonial-quote {
+    .testimonial-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-        display: none;
+    .testimonial-quote {
+        margin: 0
     }
 
 }

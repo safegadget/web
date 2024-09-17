@@ -36,7 +36,10 @@ const Navbar: React.FC = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className={`${styles.navbar} ${styles.scrolled}`}>
+    <header
+      className={`${styles.navbar} ${styles.scrolled}`}
+      style={{ backgroundColor: "#F7F6FF" }}
+    >
       <div className={styles.logo} onClick={() => navigate("/")}>
         <img src={logo} alt="Zaeda Oracle" />
       </div>
