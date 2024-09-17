@@ -17,9 +17,9 @@ function Index({}: Props) {
     <div>
       <Navbar />
       <Hero
-        header="Protect. "
-        headerOne="Repair. "
-        headerTwo="Update."
+        header="Protect, "
+        headerOne="Repair, "
+        headerTwo="Upgrade."
         description="At SafeGad, we offer comprehensive solutions to ensure your gadgets are protected, repaired, and upgraded with ease. From tailored protection plans to expert repair services and access to the latest devices, we've got you covered."
         ctaText="Protect your Gadget"
         imageUrlTop={imageUrlTop}

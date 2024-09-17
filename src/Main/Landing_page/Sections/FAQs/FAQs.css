@@ -32,6 +32,8 @@
     border: 1px solid #e0e0e0;
     padding: 12px;
     cursor: pointer;
+    margin-bottom: 16px;
+    border-radius: 16px;
 }
 
 .faq-question {
@@ -39,7 +41,7 @@
     justify-content: space-between;
     font-size: 1.2rem;
     padding-top: 8px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .faq-icon {
@@ -58,7 +60,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     color: #666;
-    padding-left: 24px;
+    padding-left: 4px;
     font-size: 1rem;
 }
 

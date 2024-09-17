@@ -6,7 +6,7 @@ const ClientStories = () => {
       <div className="offer-section">
         <h2 className="offer-title">TESTIMONIALS</h2>
         <h1 className="offer-heading" style={{ margin: 0 }}>
-          Client success stories
+          Client Success Stories
         </h1>
       </div>
       <Testimonials />

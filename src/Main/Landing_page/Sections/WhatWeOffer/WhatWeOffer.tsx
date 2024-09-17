@@ -8,8 +8,8 @@ const WhatWeOffer = () => {
       <div className="offer-section">
         <h2 className="offer-title">WHAT WE OFFER</h2>
         <h1 className="offer-heading">
-          Protect, repair, and <br />
-          Buy gadgets all in one place.
+          Protect, Repair, and <br />
+          Buy Gadgets all in one Place.
         </h1>
         <p className="offer-description">
           We offer flexible protection plans, repair services, and a curated

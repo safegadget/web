@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   const location = useLocation();
 
   useEffect(() => {
-    setMobileMenuOpen(false)
+    setMobileMenuOpen(false);
     const handleScroll = () => {
       // if (window.scrollY > 50) {
       //   setShowNavbar(true);
@@ -72,14 +72,14 @@ const Navbar: React.FC = () => {
               Repair your Gadget
             </li>
 
-            <li
+            {/* <li
               //onClick={() => navigate("/blog")}
               className={
                 isActive("/blog") ? styles.activeRoute : styles.navbarli
               }
             >
               News and Insights
-            </li>
+            </li> */}
             <li
               //onClick={() => navigate("/legal-insights")}
               className={
@@ -133,6 +133,7 @@ const Navbar: React.FC = () => {
                 ? styles.activeRoute
                 : styles.navbarlibtn
             }
+            style={{ fontWeight: 500 }}
           >
             Sign In
           </li>

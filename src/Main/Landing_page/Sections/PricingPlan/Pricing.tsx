@@ -31,8 +31,8 @@ const PricingPlan: React.FC<PricingPlanProps> = ({
   >
     <h2 className="pricing-plan-title">{title}</h2>
     <p className="pricing-plan-price">
+      {/* <span className="naira-sign">₦</span> */}
       {price}
-      <span className="naira-sign">₦</span>
     </p>
     <br />
     <button
@@ -70,7 +70,7 @@ const Pricing: React.FC = () => {
         <div className="pricing-grid">
           <PricingPlan
             title="Silver Product"
-            price="2,500"
+            price="₦2,500"
             backgroundColor="white"
             ctaText="Choose Silver Product"
             ctaBgColor="transparent"
